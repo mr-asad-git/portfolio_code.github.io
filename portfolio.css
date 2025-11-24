@@ -1,0 +1,229 @@
+* {
+  margin: 0%;
+}
+
+p {
+  display: inline-block;
+}
+
+body {
+  background-color: black;
+}
+
+/* 
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  width: 100%;
+  padding-bottom: 3.6%;
+  background-color: rgb(38, 41, 38);
+} */
+.d {
+  background-color: black;
+  display: flex;
+  justify-content: left;
+  width: 90%;
+  margin-left: 6.9%;
+  margin-top: 3.8%;
+}
+
+.d1 {
+  /* float: left; */
+  background-color: rgb(28, 28, 29);
+  border: 1px solid rgb(62, 62, 62);
+  width: 21.5%;
+  height: 95vh;
+  margin-left: 23px;
+  margin-top: 4%;
+  border-radius: 3%;
+}
+
+.d2 {
+  /* float: left; */
+  margin-left: 24px;
+  background-color: rgb(28, 28, 29);
+  border: 1px solid rgb(62, 62, 62);
+  margin-top: 4%;
+  width: 70%;
+  height: 150vh;
+  border-radius: 2.2%;
+}
+
+.pfp {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(69, 69, 69);
+  margin-top: 19%;
+  margin-left: 18%;
+  border-radius: 20%;
+  height: 27%;
+  width: 62%;
+}
+
+.pfp img {
+  margin-top: 20%;
+  border-radius: 20px 0px 20px 0px;
+}
+
+.name-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+
+}
+
+.obj-div {
+  background-color: rgb(38, 38, 38);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 55%;
+  height: 4%;
+  border-radius: 5%;
+  margin-left: 22%;
+  margin-top: 5%;
+}
+
+.obj-divider {
+  margin-top: 12%;
+  width: 70%;
+  margin-left: 15%;
+  border: 1px solid rgb(84, 84, 84);
+}
+
+/* 2nd div work */
+.co-div {
+  display: flex;
+  justify-content: center;
+}
+
+.email-div {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: left;
+}
+
+.email-div h3 {
+  margin-top: 37px;
+  margin-left: 12px;
+  font-size: 14px;
+  color: rgb(165, 165, 165);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.email-div p {
+  color: whitesmoke;
+  margin-left: 12px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.email-pic {
+  background-color: rgb(28, 28, 29);
+  width: 55px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  position: relative;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+
+.email-pic::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background: linear-gradient(320deg, transparent, #FFDB6E) border-box;
+  -webkit-mask:
+    linear-gradient(#ffffffb8 0 0) padding-box,
+    linear-gradient(#ffffff97 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+
+.email-pic img {
+  margin-top: 8px;
+}
+
+.a-div {
+  float: left;
+  height: 80px;
+  width: 50%;
+  color: aliceblue;
+
+}
+
+.a-div h1 {
+  font-family: sans-serif;
+  margin-top: 35px;
+  font-size: 34px;
+  margin-left: 28px;
+}
+
+.a-div hr {
+  width: 40px;
+  border: 3px solid rgb(228, 194, 83);
+  margin-left: 27px;
+  margin-top: 12px;
+  border-radius: 4px;
+}
+
+.b-div {
+  float: right;
+  height: 65px;
+  width: 50%;
+}
+
+.d2-navbar {
+  background-color: rgb(41, 41, 41);
+  width: 109%;
+  height: 60px;
+  border-radius: 0px 21px 0px 12px;
+  border: 1px solid rgb(62, 62, 62);
+  float: right;
+}
+
+.d2-navbar a {
+  text-decoration: none;
+  margin-left: 39px;
+  font-size: 15.2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+}
+
+.align-button {
+  margin-top: 20px;
+}
+
+.align-button a:hover {
+  color: #FFDB6E;
+}
+
+.error-div {
+  text-align: center;
+  margin-top: 30%;
+  font-size: 100px;
+  color: white;
+  font-family: sans-serif;
+
+}
+
+.error-p {
+  font-size: 20px;
+  text-align: center;
+  color: grey;
+}
